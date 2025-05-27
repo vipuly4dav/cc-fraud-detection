@@ -154,12 +154,14 @@ For tuning the models, the size of the training dataset is reduced to 50% throug
 
 The final set of hyperparameters that provide a good fit are : 
 
-`max_bins = 50`|  
-`max_depth = 2`|  
-`learning_rate = 0.1`|  
-`max_features = 0.4`|  
-`smote_sampling_strategy =0.025`|  
-`randomundersampler_sampling_strategy=0.05`
+| | |
+|---|---|
+| `max_bins` | `50` | 
+| `max_depth` | `2` |
+| `learning_rate` | `0.1` |
+| `max_features` | `0.4` |
+| `smote_sampling_strategy` | `0.025` | 
+| `randomundersampler_sampling_strategy` | `0.05` | 
 
 The associated Precision-Recall curve is shown below.
 
@@ -221,15 +223,17 @@ The associated Precision-Recall curve is shown below.
 
 The optimum hyperparameter combination is as follows : 
 
-`n_estimators = 100`|  
-`max_depth = 5`|  
-`criterion = entropy`|  
-`boostrap = True`|  
-`max_samples = 0.5`|   
-`max_features = 0.5`|  
-`max_leaf_nodes = 100`|  
-`smote_sampling_strategy = 0.01`|  
-`randomundersampler_sampling_strategy=0.02`
+| | |
+|---|---|
+| `n_estimators` | `100`|  
+| `max_depth` | `5`|  
+| `criterion` | `entropy`|  
+| `boostrap` | `True`|  
+| `max_samples` | `0.5`|   
+| `max_features` | `0.5`|  
+| `max_leaf_nodes` | `100`|  
+| `smote_sampling_strategy` | `0.01`|  
+| `randomundersampler_sampling_strategy` | `0.02` |
 
 The associated Precision-Recall curve is shown below.
 
